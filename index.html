@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>MINI Project</title>
+    <META charset="UTF-8">
+    <META name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <META NAME='rating' CONTENT='General' />
+    <META NAME='expires' CONTENT='never' />
+    <META NAME='language' CONTENT='English, EN' />
+    <META name="description" content="shopping cart project with HTML5 and JavaScript">
+    <META name="keywords" content="HTML5,CSS,JavaScript, html5 session storage, html5 local storage">
+    <META name="author" content="dcwebmakers.com">
+ 
+    <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+
+
+<body onload="doShowAll()">
+    <h2>E COMMERCE shopping card system</h2>
+    <button id="product categories"></button>
+    <p>choose your product and quantity for your shopping cart. </p>
+    <form name=ShoppingList>
+
+        <div id="main">
+            <table>
+                <tr>
+
+                    <td><b>product</b><input type=text name=name></td>
+                    <td><b>Quantity:</b><input type=text name=data></td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="button" value="cars" onclick="selectcartype()">
+                        <input type=button value="electronics" onclick="electronictype()">
+                        <input type=button value="furnature" onclick="furnaturetype()">
+                        <input type=button value="price" onclick="itemprice()">
+                    </td>
+                </tr>
+            </table>
+
+            <!--img class="display" src="images/img.jpg">
+            <img class="display" src="images/img.jpg"-->
+            <div id="output"></div>
+        </div>
+
+        <div id="items_table">
+            <h3>Shopping List</h3>
+            <table id=list></table>
+            <p>
+                <label><input type=button value="Clear" onclick="ClearAll()">
+                    <i>* Delete all items</i></label>
+            </p>
+        </div>
+    </form>
+<script src="project.js"></script>
+</body>
+
+</html>
+
+
+
+</html>

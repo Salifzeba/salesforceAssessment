@@ -1,0 +1,91 @@
+{
+    "products": [
+        {
+            "id":1,
+            "name": "Cheverolet",
+            "color": "blue",
+            "price": "Ghc 15,000",
+            "categoty": "cars",
+            "image": "images/car/img.jpg",
+            "category":"Car",
+            "description": "latest cheverolet full option with a v12 engine providing 500 horsepower."
+
+
+        },
+        {
+            "id":2,
+            "name": "ferarri",
+            "color": "gold",
+            "price": "Ghc 15,000",
+            "image": "images/car/img2.jpg",
+            "category":"Car",
+            "description": "latest luxury Ferarry full option with a v12 engine providing 500 horsepower."
+        },
+        {
+            "id":3,
+            "name": "Aston Martin",
+            "color": "black",
+            "price": "Ghc 10,000",
+            "image": "images/car/img3.jpg",
+            "category":"Car",
+            "description":"latest Aston Martin full option with a v12 engine providing 500 horsepower."
+        },
+   
+        {
+            "id":4,
+            "name": "sofa",
+            "color": "blue",
+            "price": "Ghc 900",
+            "image": "images/furnature/sofa.jpg",
+            "category":"Furniture",
+            "description": "confortable sofa , 100% leather , hight quality"
+        },
+        {
+            "id":5,
+            "name": "sofa",
+            "color": "brown",
+            "price": "Ghc 700",
+            "image": "images/furnature/sofa1.jpg",
+            "category":"Furniture",
+            "description": "confortable hight quality sofa , 100% leather , hight "
+        },
+        {
+            "id":6,
+            "name": "set of chairs",
+            "color": "brown",
+            "price": "Ghc 1,500",
+            "image": "images/furnature/chairs.jpg",
+            "category":"Furniture",
+            "description": " hight quality set of chair for living room , 100% leather"
+        },
+        {
+            "id":7,
+            "name": "Iphone11 pro",
+            "color": "silver",
+            "price": "Ghc 2,500",
+            "image": "images/electronic/iphone.jpg",
+            "category":"Electronic",
+            "description": "from Apple whith 500 Gb memory, SCREEN led, 9 inch, front camer 20 px back camera 30 px" 
+        },
+    {
+        "id":8,
+        "name": "samsung tv",
+        "color": "black",
+        "size": "'55 icch",
+        "price": "Ghc 1,500",
+        "image": "images/electronic/samsung.jpg",
+        "category":"Electronic",
+        "description": "Original Android samsung tv , extra slim, screen type led, 55 inch"
+    },
+    {
+        "id":9,
+        "name": "LG fridge",
+        "color": "white",
+        "type": "2 in 1",
+        "price": "Ghc 1,900",
+        "image": "images/electronic/lg.jpg",
+        "category":"Electronic",
+        "description": ""
+    }
+    ]
+}

@@ -1,39 +1,98 @@
-csstd,th {
-	font-family: monospace;
-	padding: 5px;
-	background-color:blueviolet ;
+html {
+	background-color: cyan;
+}
+h1{
+	color: darkred;
+	text-align: center;
+	transition: all;
+ font-size: 50px;
 }
 
-label {
-	vertical-align: top;
+nav{
+	background: #fff;
+}
+nav a{
+	display: inline-block;
 }
 
-#main {
-	border: 2px dotted yellow;
-	padding: 8px;
-	background-color: rebeccapurple;
-	margin-right: 50%;
+nav ul{
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+nav ul li{
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: bold; 
+	cursor: pointer;
 }
 
-#items_table {
-	border: 1px dotted blue;
-	padding: 6px;
-	margin-top: 12px;
-	margin-right: 50%;
+.main .products{
+	margin-top: 1.25rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.3rem;
+}
+.featured-product-item {
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+	border: 1px solid #ddd;
+	background: #fff;
+	padding: 1rem;
 }
 
-#items_table h3 {
-	font-size: 18px;
-	margin-top: 0px;
-	font-family: sans-serif;
+.item-image {
+    height: 15.5rem;
+    background-size: cover;
+    background-position: center;
 }
 
-.display{
+.item-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.featured-product-item > .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button{
+	outline: none;
+    border: none;
+    color: white;
+	padding: 0.6rem 0.9rem;
+	background: #666;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    margin: 0.6rem auto;
+}
+
+.item-details{
+    max-width: 1200px;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.3rem;
+}
+
+.item{
+	border: 1px solid black;
+}
+
+.item-details .details-box{
+	background: #fff;
+	text-align: center;
+}
+
+.details-box #continue{
     display: none;
-    width: 100px;
-}
-
-.display1{
-    display: none;
-    width: 100px;
 }
